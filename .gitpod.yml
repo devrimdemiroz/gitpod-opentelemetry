@@ -1,6 +1,6 @@
 tasks:
   - init: |
-      git clone https://github.com/open-telemetry/opentelemetry-demo.git
+      git clone --branch Shahmaran https://git@github.com:devrimdemiroz/opentelemetry-demo-webstore.git
       gp open README.md
   - name: Initialize standalone Node Application 
     command: |
